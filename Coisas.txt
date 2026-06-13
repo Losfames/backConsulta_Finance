@@ -1,0 +1,13 @@
+banco de dados mysql
+na entity framework
+c# back 
+e java front
+
+backend C# utilizando o framework ASP.NET Core
+
+com os Requisitos
+a)cadastro de usuário/projeto;
+b)cadastro orçado/realizado;
+c)sistema de dashboard;
+
+banco de dados mysql
