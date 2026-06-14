@@ -128,3 +128,15 @@ C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\obj\Debug
 C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\obj\Debug\net9.0\ConsultaFinance.API.pdb
 C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\obj\Debug\net9.0\ConsultaFinance.API.genruntimeconfig.cache
 C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\obj\Debug\net9.0\ref\ConsultaFinance.API.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\obj\Debug\net9.0\ConsultaFinance.API.sourcelink.json
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lipe\Desktop\Projetos\backConsultaFinance\ConsultaFinance.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

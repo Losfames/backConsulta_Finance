@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultaFinance.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c68b178fada548a19fd67db61b70a1a5bdd596a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsultaFinance.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsultaFinance.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
