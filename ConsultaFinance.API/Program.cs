@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("PermitirReact", policy =>
     {
         policy.WithOrigins("http://localhost:3000",
-        "https://front-consulta-finance.vercel.app"
+        "https://front-consulta-finance.vercel.appg"
         ) // URL exata do seu React
               .AllowAnyHeader()
               .AllowAnyMethod()
@@ -85,4 +85,11 @@ app.UseCors("PermitirReact");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+}
+
 app.Run();
