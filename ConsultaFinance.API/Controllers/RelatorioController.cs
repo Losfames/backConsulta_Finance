@@ -20,18 +20,23 @@ public class RelatorioController : ControllerBase
     }
 
     [HttpGet("ExportarExcel")]
-    public async Task<IActionResult> ExportarExcel()
-    {
-        var usuarioId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+public async Task<IActionResult> ExportarExcel()
+{
+    var usuarioClaim = User.FindFirst(ClaimTypes.NameIdentifier);
 
-        var despesas = await _context.Despesas
-            .Include(d => d.Projeto)
-            .Where(d => d.Projeto.UsuarioId == usuarioId)
-            .OrderBy(d => d.Data)
-            .ToListAsync();
+    if (usuarioClaim == null)
+        return Unauthorized("Usuário não autenticado.");
 
-        using var workbook = new XLWorkbook();
-        var ws = workbook.Worksheets.Add("Relatório");
+    var usuarioId = int.Parse(usuarioClaim.Value);
+
+    var despesas = await _context.Despesas
+        .Include(d => d.Projeto)
+        .Where(d => d.Projeto.UsuarioId == usuarioId)
+        .OrderBy(d => d.Data)
+        .ToListAsync();
+
+    if (!despesas.Any())
+        return BadRequest("Nenhuma despesa encontrada.");
 
         // Título
         ws.Cell("A1").Value = "RELATÓRIO DE DESPESAS";
