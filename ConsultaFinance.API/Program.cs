@@ -29,7 +29,7 @@ builder.Services.AddCors(options =>
 // Configuração do Banco de Dados MySQL
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+    options.UseMySql(connectionString, ServerVersion.Parse("8.0.0-mysql")));
 
 // Configuração do Swagger com o botão Authorize (Token JWT)
 builder.Services.AddEndpointsApiExplorer();
