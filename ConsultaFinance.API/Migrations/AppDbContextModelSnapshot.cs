@@ -54,7 +54,7 @@ namespace ConsultaFinance.API.Migrations
 
                     b.HasIndex("ProjetoId");
 
-                    b.ToTable("Despesas");
+                    b.ToTable("Despesas", (string)null);
                 });
 
             modelBuilder.Entity("ConsultaFinance.API.Models.Projeto", b =>
@@ -89,7 +89,7 @@ namespace ConsultaFinance.API.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Projetos");
+                    b.ToTable("Projetos", (string)null);
                 });
 
             modelBuilder.Entity("ConsultaFinance.API.Models.Usuario", b =>
@@ -114,7 +114,7 @@ namespace ConsultaFinance.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuarios", (string)null);
                 });
 
             modelBuilder.Entity("ConsultaFinance.API.Models.Despesa", b =>
