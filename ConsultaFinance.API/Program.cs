@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("PermitirReact", policy =>
     {
         policy.WithOrigins("http://localhost:3000",
-        "https://front-consulta-finance.vercel.app"
+        "https://front-consulta-finance-alm21.vercel.app"
         ) // URL exata do seu React
               .AllowAnyHeader()
               .AllowAnyMethod()
